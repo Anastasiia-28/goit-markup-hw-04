@@ -487,7 +487,6 @@ border-top: none;
 
 .footer-logo-studio{
     color: #f4f4fd;
-
 }
 
 .footer-paragraf{
@@ -498,7 +497,8 @@ border-top: none;
         letter-spacing: 0.02em;
         line-height: 1.5;
         color: #F4F4FD;
-}
+        margin-top: 0;
+    }
 
 .social-media{
     display: inline-block;
