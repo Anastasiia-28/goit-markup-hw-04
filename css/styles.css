@@ -454,16 +454,16 @@ border-top: none;
 
 .footer{
     background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     display: flex;
     justify-content: flex-start;
+    gap: 72px;
 }
 
 .conteiner-footer{
-        margin: 0;
-        padding-left: 156px;
-        padding-right: 120px;
+    margin: 0;
+    padding-left: 156px;
+    padding-right: 120px;
 }
 
 .footer-logo{
@@ -511,7 +511,8 @@ border-top: none;
 .footer-list{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
+    margin-top: 16px;
 }
 
 .footer-list-item{
