@@ -463,9 +463,12 @@ border-top: none;
     gap: 72px;
 }
 
+
 .conteiner-footer{
     display: flex;
     align-items: baseline;
+    justify-content: flex-start;
+    gap: 120px;
 }
 
 .conteiner-logo{
@@ -498,7 +501,16 @@ border-top: none;
         line-height: 1.5;
         color: #F4F4FD;
         margin-top: 0;
+        margin-bottom: 16px;
     }
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: baseline;
+    margin-right: 120px;
+}
 
 .social-paragraf{
         font-weight: 500;
@@ -512,6 +524,7 @@ border-top: none;
 .footer-list{
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 
 .footer-list-item{
